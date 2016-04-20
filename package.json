@@ -1,6 +1,6 @@
 {
   "name": "chatbot-celebrations",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "## celebration.wikipedia",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/ChocoyoLabs/chatbot-celebrations.git"
   },
-  "author": "",
+  "author": "Paulo McNally <paulo.mcnally@chocoyolabs.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/ChocoyoLabs/chatbot-celebrations/issues"
