@@ -1,6 +1,6 @@
 # chatbot-celebrations
 
-## celebration.wikipedia
+## celebrations.wikipedia
 
 Holiday information from wikipedia
 
