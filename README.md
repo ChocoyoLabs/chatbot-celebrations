@@ -14,3 +14,19 @@ Holiday information from wikipedia
 * ¿Qué festividades hay hoy?
 * ¿Qué celebraciones hay hoy?
 * ¿Qué celebraciones hay en nicaragua?
+
+## Setup
+
+    $ sequelize db:seed:all --seeders-path node_modules/chatbot-celebrations/seeders/
+
+or
+
+    $ sequelize db:seed --seeders-path node_modules/chatbot-celebrations/seeders --seed chatbot-celebrations-seeder.js
+
+## Remove
+
+    $ sequelize db:seed:undo:all --seeders-path node_modules/chatbot-celebrations/seeders/
+
+or
+
+    $ sequelize db:seed:undo --seeders-path node_modules/chatbot-celebrations/seeders --seed chatbot-celebrations-seeder.js
