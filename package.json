@@ -1,6 +1,6 @@
 {
   "name": "chatbot-celebrations",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "## celebration.wikipedia",
   "main": "index.js",
   "scripts": {
