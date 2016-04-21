@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/ChocoyoLabs/chatbot-celebrations/issues"
   },
-  "homepage": "https://github.com/ChocoyoLabs/chatbot-celebrations#readme"
+  "homepage": "https://github.com/ChocoyoLabs/chatbot-celebrations#readme",
+  "devDependencies": {
+    "sequelize": "3.21.0"
+  }
 }
