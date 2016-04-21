@@ -2,7 +2,7 @@
 
 module.exports = {
   up: function (queryInterface, Sequelize) {
-    queryInterface.bulkInsert('commands', [
+    return queryInterface.bulkInsert('commands', [
       {
         pattern: 'celebra\\shoy',
         command: 'celebrations.wikipedia',
@@ -24,14 +24,17 @@ module.exports = {
         createdAt: new Date(),
         updatedAt: new Date(),
       },
-    ]);
+    ], {}).catch(function (err) {
+          console.error(err.message);
+          throw err;
+        });
   },
 
   down: function (queryInterface, Sequelize) {
-    queryInterface.bulkDelete('commands', [
+    return queryInterface.bulkDelete('commands', [
       {
         command:'celebrations.wikipedia',
       },
-    ]);
+    ], {});
   },
 };
